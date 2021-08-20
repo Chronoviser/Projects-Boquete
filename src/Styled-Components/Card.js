@@ -26,6 +26,7 @@ export const CardHeading = styled.h1`
 export const CardBody = styled.div`
   padding-right: 32px;
   padding-left: 32px;
+  align-self: center;
 `;
 
 export const CardFieldset = styled.fieldset`
