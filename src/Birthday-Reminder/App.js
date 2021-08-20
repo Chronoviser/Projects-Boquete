@@ -1,20 +1,38 @@
 import { useState } from 'react';
 import List from './Components/List';
 import data from './data/data';
+import Styled from 'styled-components';
+import {
+    CardWrapper,
+    CardHeader,
+    CardHeading,
+    CardFieldset,
+    CardButton
+} from "../Styled-Components/Card";
+
+const StyledButton = Styled(CardButton)`
+    width: 200px;
+`
 
 function BirthdayApp() {
 
     const [people, setPeople] = useState(data);
 
     return (
-        <>
-            <header><h2>Birthday Reminder</h2></header>
-            <section style={{ margin: "10px", padding: "20px" }}>
-                <h3>{people.length} Birthdays today</h3>
+        <CardWrapper>
+            <CardHeader>
+                <CardHeading>
+                    Birthday Reminder
+                </CardHeading>
+            </CardHeader>
+            <section style={{ padding: "2px" }}>
+                <h3 style={{ backgroundColor: "azure", padding: "10px" }}>{people.length} Birthdays today</h3>
                 <List people={people} />
-                <button onClick={() => setPeople([])}> Clear All </button>
+                <CardFieldset>
+                    <StyledButton onClick={() => setPeople([])}> Clear All </StyledButton>
+                </CardFieldset>
             </section>
-        </>
+        </CardWrapper>
     );
 }
 

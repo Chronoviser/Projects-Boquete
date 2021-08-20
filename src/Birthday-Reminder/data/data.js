@@ -25,14 +25,14 @@ const data = [
         name: "Manoj Bajpayee",
         age: "52",
         birthdate: "23 April 1969",
-        image: "https://images.yourstory.com/cs/7/25e9e0e0605211e984534d4121ad4bb6/Manoj-1601471460358.png"
+        image: "https://i2.cinestaan.com/image-bank/1500-1500/126001-127000/126942.jpg"
     },
     {
         id: 5,
         name: "Nawazuddin Siddiqui",
         age: "47",
         birthdate: "19 Sep 1974",
-        image: "https://spiderimg.amarujala.com/assets/images/2019/08/15/nawazuddin-siddiqui_1565812924.png"
+        image: "https://cdn.pngsumo.com/download-hd-about-nawazuddin-nawazuddin-siddiqui-face-png-nawazuddin-siddiqui-png-316_548.png"
     }
 ];
 
