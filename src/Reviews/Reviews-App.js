@@ -1,7 +1,11 @@
+import Header from './Components/Header';
+import CarouselBody from './Components/Carousel-Body';
+
 function ReviewsApp() {
     return (
         <div>
-            <h2>Hi Everyone I am Good Boy!</h2>
+            <Header />
+            <CarouselBody />
         </div>
     );
 }
