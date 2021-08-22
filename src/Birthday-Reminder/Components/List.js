@@ -21,7 +21,7 @@ function List({ people }) {
             {
                 people.map((person, i) => {
                     return <StyledArticle key={i}>
-                        <img src={person.image} alt={person.name} style={{ height: "200px", float: "left" }} />
+                        <img src={person.image} alt={person.name} style={{ height: "200px", float: "left", border: "none" }} />
                         <div style={{ height: "100%" }}>
                             <h3>{person.name}</h3>
                             <Text>{person.age} years</Text>

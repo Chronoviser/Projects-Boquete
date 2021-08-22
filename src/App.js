@@ -13,21 +13,22 @@ import CockTailBarApp from './Cocktail-Bar/Cocktail-Bar-App';
 import TenthApp from './The-10th-Project/Tenth-App';
 
 const StyledLink = Styled(Link)`
-  margin: 0 30% 0 30%;
+  margin: 1% 5% 1% 5%;
   display: block;
   font-size: 24px;
-  background: azure;
+  background: salmon;
   font-weight: 600;
   padding: 15px;
   text-decoration: none;
-  color: matte;
+  color: white;
   cursor: pointer;
-  border-bottom: 4px solid white;
-  transition: color 0.25s ease-in;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05), 0 0px 40px rgba(0, 0, 0, 0.08);
+  transition: color 0.5s;
 
   &:hover {
-    background: indigo;
-    color: azure;
+    background: white;
+    box-shadow: none;
+    color: salmon;
   }
 `
 
@@ -37,17 +38,19 @@ function App() {
     <div className="App">
       <Route path='/' exact render={() =>
         <>
-          <h1 style={{ color: "#111" }}>Projects Boquete</h1>
-          <StyledLink to="/birthday-reminder-app" exact>Birthday Reminder App</StyledLink>
-          <StyledLink to="/tour-book-app" exact>Tour Book App</StyledLink>
-          <StyledLink to="/reviews-app" exact>Reviews App</StyledLink>
-          <StyledLink to="/faq-app" exact>FAQ App</StyledLink>
-          <StyledLink to="/menu-app" exact>Menu App</StyledLink>
-          <StyledLink to="/lorem-ipsum-generator-app" exact>Lorem Ipsum Generator App</StyledLink>
-          <StyledLink to="/color-generator-app" exact>Color Generator App</StyledLink>
-          <StyledLink to="/modal-stripe-app" exact>Modal Stripe App</StyledLink>
-          <StyledLink to="/cocktail-bar-app" exact>Cocktail Bar App</StyledLink>
-          <StyledLink to="/tenth-app" exact>The 10th Project App</StyledLink>
+          <h1 style={{ color: "IndianRed" }}>Projects Boquete</h1>
+          <div className="linksGrid">
+            <StyledLink to="/birthday-reminder-app" exact>Birthday Reminder App</StyledLink>
+            <StyledLink to="/tour-book-app" exact>Tour Book App</StyledLink>
+            <StyledLink to="/reviews-app" exact>Reviews App</StyledLink>
+            <StyledLink to="/faq-app" exact>FAQ App</StyledLink>
+            <StyledLink to="/menu-app" exact>Menu App</StyledLink>
+            <StyledLink to="/lorem-ipsum-generator-app" exact>Lorem Ipsum Generator App</StyledLink>
+            <StyledLink to="/color-generator-app" exact>Color Generator App</StyledLink>
+            <StyledLink to="/modal-stripe-app" exact>Modal Stripe App</StyledLink>
+            <StyledLink to="/cocktail-bar-app" exact>Cocktail Bar App</StyledLink>
+            <StyledLink to="/tenth-app" exact>The 10th Project App</StyledLink>
+          </div>
         </>
       } />
       <Route path="/birthday-reminder-app" component={BirthdayApp} />

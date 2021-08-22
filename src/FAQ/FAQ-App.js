@@ -16,7 +16,7 @@ function FAQApp() {
                 </div>
             </section>
         </div>
-    );  
+    );
 }
 
 export default FAQApp;
