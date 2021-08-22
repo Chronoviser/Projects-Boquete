@@ -3,7 +3,7 @@ import CarouselBody from './Components/Carousel-Body';
 
 function ReviewsApp() {
     return (
-        <div>
+        <div style={{ backgroundColor: "azure", overflow: "hidden", height: "100vh"}}>
             <Header />
             <CarouselBody />
         </div>

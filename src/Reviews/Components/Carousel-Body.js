@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const StyledWrapper = styled.div`
     overflow: hidden;
     padding: 30px;
+    background: white;
     margin: 2% 30% 2% 30%;
     width: 40%;
     height: 70vh;
