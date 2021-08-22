@@ -1,3 +1,22 @@
-body {
-    background-color: indigo;
+.parentWrapper {
+    background: indigo;
+    overflow: hidden;
+}
+
+.parentSection {
+    background: white;
+    padding: 20px;
+    margin: 5% 15% 5% 15%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    width: 22%;
+    color: #333;
+}
+
+.questions { 
+    width: 60%; 
+    color: #222;
 }
