@@ -22,11 +22,12 @@ const StyledLink = Styled(Link)`
   text-decoration: none;
   color: matte;
   cursor: pointer;
-  border-bottom: 4px solid #fff;
+  border-bottom: 4px solid indigo;
   transition: color 0.25s ease-in;
 
   &:hover {
-    color: #777;
+    background: indigo;
+    color: azure;
   }
 `
 
@@ -36,7 +37,7 @@ function App() {
     <div className="App">
       <Route path='/' exact render={() =>
         <>
-          <h1>Projects Boquete</h1>
+          <h1 style={{ color: "white" }}>Projects Boquete</h1>
           <StyledLink to="/birthday-reminder-app" exact>Birthday Reminder App</StyledLink>
           <StyledLink to="/tour-book-app" exact>Tour Book App</StyledLink>
           <StyledLink to="/reviews-app" exact>Reviews App</StyledLink>
