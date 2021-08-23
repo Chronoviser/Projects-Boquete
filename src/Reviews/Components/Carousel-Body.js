@@ -1,6 +1,6 @@
 import data from '../Data/data';
 import { BsFillCaretLeftFill, BsFillCaretRightFill } from 'react-icons/bs';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 const StyledWrapper = styled.div`
@@ -69,24 +69,36 @@ const StyledExp = styled.p`
  height: 19vh;
 `
 
-
-
 function CarouselBody() {
     const n = data.length;
     const [index, setIndex] = useState(0);
-    const review = data[index];
+    const [review, setReview] = useState(data[0]);
+
+    useEffect(() => {
+        let slider = setInterval(() => {
+            setIndex((index + 1) % (data.length));
+            setReview(data[index]);
+        }, 5000);
+
+        return () => clearInterval(slider);
+
+    }, [index]);
+
 
     function next() {
         setIndex((index + 1) % n);
+        setReview(data[index]);
     }
 
     function prev() {
         if (index - 1 < 0) setIndex(n - 1);
         else setIndex(index - 1);
+        setReview(data[index]);
     }
 
     function random() {
         setIndex(Math.floor(Math.random() * 10) % n);
+        setReview(data[index]);
     }
 
     return (

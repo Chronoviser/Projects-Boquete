@@ -31,7 +31,7 @@ const data = [
         id: 5,
         name: 'Lady Gaga',
         prof: 'Pop Singer',
-        img: 'https://www.pngarts.com/files/5/Lady-Gaga-PNG-Image-Background.png',
+        img: 'https://www.varietyinsight.com/images/honoree/Lady_Gaga.png',
         exp: 'The pop star, whose hits include "Paparazzi” and “Poker Face,” says she’s dealt with both depression and anxiety her whole life. Gaga isn\'t ashamed to admit she takes medication for depression. In an interview with Billboard magazine, she said she thinks it’s important for people to talk about their mental health. “If we share our stories and stick together, we’re stronger.”'
     }
 ]
