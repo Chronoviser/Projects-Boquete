@@ -1,0 +1,32 @@
+.colorGeneratorHeader {
+    display: flex; 
+    justify-content: start; 
+    padding: 20px;
+    align-items: center;
+}
+
+.colorGeneratorInput {
+    font-size: 18px; 
+    font-weight: 500; 
+    color: #666; 
+    border: none; 
+    border-radius: 12px 0 0 12px; 
+    height: 50px; 
+    padding: 4px;
+}
+
+.colorGeneratorButton {
+    background-color: deepSkyblue; 
+    color: white; 
+    font-size: 16px; 
+    font-weight: 600; 
+    border: none; 
+    border-radius: 0 12px 12px 0; 
+    height: 50px; 
+    padding: 4px;
+}
+
+.colorGeneratorContent {
+    display: grid; 
+    grid-template-columns: auto auto auto auto auto;
+}
