@@ -39,3 +39,17 @@
 <p float=left>
 <img src="https://user-images.githubusercontent.com/52380781/130362427-de7f8c90-9a71-4a85-8673-52969433a63c.png" width="100%">
 </p>
+
+<br />
+
+> ## Lorem Ipsum Generator App
+<p float=left>
+<img src="https://user-images.githubusercontent.com/52380781/130495582-4bd9acaf-209f-42e3-a142-4dd2ea824372.png" width="100%">
+</p>
+
+<br />
+
+> ## Color Generator App
+<p float=left>
+<img src="https://user-images.githubusercontent.com/52380781/130645994-e257f5bb-515b-4a93-9974-7b18419f177c.png" width="100%">
+</p>
