@@ -53,3 +53,10 @@
 <p float=left>
 <img src="https://user-images.githubusercontent.com/52380781/130645994-e257f5bb-515b-4a93-9974-7b18419f177c.png" width="100%">
 </p>
+
+<br />
+
+> ## Modal SideBar App
+<p float=left>
+<img src="https://user-images.githubusercontent.com/52380781/130784139-7730cd60-797f-4533-beda-b6384693616f.png" width="100%">
+</p>
