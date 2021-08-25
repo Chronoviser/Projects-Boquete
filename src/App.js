@@ -8,9 +8,9 @@ import FAQApp from './FAQ/FAQ-App';
 import MenuApp from './Menu/Menu-App';
 import LIGApp from './Lorem-Ipsum-Generator/LIG-App';
 import ColorGeneratorApp from './Color-Generator/Color-Generator-App';
-import ModalStripeApp from './Modal-Stripe/Modal-Stripe-App';
 import CockTailBarApp from './Cocktail-Bar/Cocktail-Bar-App';
-import TenthApp from './The-10th-Project/Tenth-App';
+import SideBarModalApp from './SideBar-Modal/SideBar-Modal-App';
+import StripeApp from './Stripe/Stripe-App';
 
 const StyledLink = Styled(Link)`
   margin: 1% 5% 1% 5%;
@@ -47,9 +47,9 @@ function App() {
             <StyledLink to="/menu-app" exact>Menu App</StyledLink>
             <StyledLink to="/lorem-ipsum-generator-app" exact>Lorem Ipsum Generator App</StyledLink>
             <StyledLink to="/color-generator-app" exact>Color Generator App</StyledLink>
-            <StyledLink to="/modal-stripe-app" exact>Modal Stripe App</StyledLink>
+            <StyledLink to="/sidebar-modal-app" exact>Sidebar Modal App</StyledLink>
             <StyledLink to="/cocktail-bar-app" exact>Cocktail Bar App</StyledLink>
-            <StyledLink to="/tenth-app" exact>The 10th Project App</StyledLink>
+            <StyledLink to="/stripe-app" exact>Stripe App</StyledLink>
           </div>
         </>
       } />
@@ -60,9 +60,9 @@ function App() {
       <Route path="/menu-app" component={MenuApp} />
       <Route path="/lorem-ipsum-generator-app" component={LIGApp} />
       <Route path="/color-generator-app" component={ColorGeneratorApp} />
-      <Route path="/modal-stripe-app" component={ModalStripeApp} />
+      <Route path="/sidebar-modal-app" component={SideBarModalApp} />
       <Route path="/cocktail-bar-app" component={CockTailBarApp} />
-      <Route path="/tenth-app" component={TenthApp} />
+      <Route path="/stripe-app" component={StripeApp} />
     </div>
   );
 }
