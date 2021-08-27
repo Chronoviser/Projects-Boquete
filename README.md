@@ -65,12 +65,12 @@
 
 > ## Stripe App
 <p float=left>
-<img src="https://user-images.githubusercontent.com/52380781/130784139-7730cd60-797f-4533-beda-b6384693616f.png" width="100%">
+<img src="" width="100%">
 </p>
 
 <br />
 
 > ## Cocktail Bar App
 <p float=left>
-<img src="https://user-images.githubusercontent.com/52380781/130784139-7730cd60-797f-4533-beda-b6384693616f.png" width="100%">
+<img src="" width="100%">
 </p>
