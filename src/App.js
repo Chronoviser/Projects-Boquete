@@ -11,6 +11,7 @@ import ColorGeneratorApp from './Color-Generator/Color-Generator-App';
 import CockTailBarApp from './Cocktail-Bar/Cocktail-Bar-App';
 import SideBarModalApp from './SideBar-Modal/SideBar-Modal-App';
 import StripeApp from './Stripe/Stripe-App';
+import WeatherApp from './Weather-App/Weather-App';
 
 const StyledLink = Styled(Link)`
   margin: 1% 5% 1% 5%;
@@ -50,6 +51,7 @@ function App() {
             <StyledLink to="/sidebar-modal-app" exact>Sidebar Modal App</StyledLink>
             <StyledLink to="/cocktail-bar-app" exact>Cocktail Bar App</StyledLink>
             <StyledLink to="/stripe-app" exact>Stripe App</StyledLink>
+            <StyledLink to="/weather-app" exact>Weather App</StyledLink>
           </div>
         </>
       } />
@@ -63,6 +65,7 @@ function App() {
       <Route path="/sidebar-modal-app" component={SideBarModalApp} />
       <Route path="/cocktail-bar-app" component={CockTailBarApp} />
       <Route path="/stripe-app" component={StripeApp} />
+      <Route path="/weather-app" component={WeatherApp} />
     </div>
   );
 }

@@ -1,0 +1,29 @@
+.weather-app {
+    background-image: url('./Data/warm.jpg');
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    transition: 0.4s ease-out;
+}
+
+.weather-app.cold {
+    background-image: url('./Data/cold.jpg');
+}
+
+.weather-desc {
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 25%;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.weather-input {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
