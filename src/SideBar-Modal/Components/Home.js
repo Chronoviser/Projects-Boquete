@@ -33,7 +33,7 @@ function Home() {
     return (
         <main>
             <MenuIcon onClick={openSideBar} />
-            <StyledButton onClick={openModal}> Show Modal</StyledButton>
+            <StyledButton onClick={openModal}>Show Modal</StyledButton>
         </main>
     );
 }
