@@ -72,7 +72,7 @@
 
 > ## Stripe App
 <p float=left>
-<img src="" width="100%">
+<img src="https://user-images.githubusercontent.com/52380781/131260271-abe1223a-857c-4535-b2fc-926e391a6e9c.png" width="100%">
 </p>
 
 <br />
