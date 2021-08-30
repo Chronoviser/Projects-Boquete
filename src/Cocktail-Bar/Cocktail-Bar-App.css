@@ -1,0 +1,82 @@
+.cocktail-nav {
+    display: flex; 
+    background: white;
+    justify-content: space-between; 
+    padding: 0px 50px; 
+    align-items: center;
+    letter-spacing: "2px";
+    border-bottom: 2px solid teal;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5), 0 0px 14px rgba(0, 0, 0, 0);
+}
+
+.cocktail-nav-pages {
+    display: flex; 
+    justify-content: space-around; 
+    width: 15%; 
+    font-size: 18px;
+}
+
+.cocktail-searchbox {
+    background: white; 
+    width: 40%; 
+    margin-left: 30%; 
+    margin-top: 7%;
+    margin-bottom: 5%;
+    text-align: start; 
+    padding: 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.cocktail-searchbox-title {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: teal;
+}
+
+.cocktail-searchbox-input {
+    background: azure;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.cocktail-cocktails {
+    margin-bottom: 5%;
+}
+
+.cocktail-cocktails-grid {
+    display: grid;
+    text-align: center;
+    padding-left: 4%;
+    grid-template-columns: auto auto auto;
+}
+
+.cocktail-cocktail {
+    background: white;
+    width: 90%;
+    margin-bottom: 20px;
+    text-align: start;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.5s;
+}
+
+.cocktail-cocktail:hover {
+    box-shadow: rgba(0, 128, 128, 0.15) 8px 8px 10px;
+}
+
+.cocktail-cocktail-details {
+    border: none; 
+    font-size: 16px;
+    padding: 5px; 
+    border-radius: 7px;
+    background: teal;
+    color: white;
+    letter-spacing: 1.95px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cocktail-cocktail-details:hover {
+    background: rgb(0, 128, 128, 0.5);
+}
